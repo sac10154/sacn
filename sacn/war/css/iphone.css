@@ -15,7 +15,7 @@
 	
 	
 	body {
-		background: rgb(197,204,211) url(../images/stripes.png);
+		background: rgb(197,204,211) url(../img/stripes.png);
 		font-family: Helvetica;
 		margin: 0 0 0 10px;
 		padding: 0;
@@ -75,7 +75,7 @@
 		/* headers */
 
 		div#header {
-			background: rgb(109,133,163) url(../images/bgHeader.png) repeat-x top;
+			background: rgb(109,133,163) url(../img/bgHeader.png) repeat-x top;
 			border-top: 1px solid rgb(205,213,223);
 			border-bottom: 1px solid rgb(46,55,68);
 			padding: 10px;
@@ -118,7 +118,7 @@
 						overflow: hidden;
 						top: 7px;
 						right: 6px;
-						-webkit-border-image: url(../images/toolButton.png) 0 5 0 5;
+						-webkit-border-image: url(../img/toolButton.png) 0 5 0 5;
 						}
 
 						div#header #backButton {
@@ -127,13 +127,13 @@
 							padding: 0;
 							max-width: 55px;
 							border-width: 0 8px 0 14px;
-							-webkit-border-image: url(../images/backButton.png) 0 8 0 14;
+							-webkit-border-image: url(../img/backButton.png) 0 8 0 14;
 							}
 
 
 						.Action {
 							border-width: 0 5px;
-							-webkit-border-image: url(../images/actionButton.png) 0 5 0 5;
+							-webkit-border-image: url(../img/actionButton.png) 0 5 0 5;
 						}
 
 
@@ -220,14 +220,14 @@
 				/* universal arrows */
 				
 				ul li.arrow {
-					background-image: url(../images/chevron.png);
+					background-image: url(../img/chevron.png);
 					background-position: right center;
 					background-repeat: no-repeat;
 					}
 					
 					
 				#plastic ul li.arrow, #metal ul li.arrow {
-					background-image: url(../images/chevron_dg.png);
+					background-image: url(../img/chevron_dg.png);
 					background-position: right center;
 					background-repeat: no-repeat;
 					}
@@ -375,7 +375,7 @@
 			}
 		
 			ul li.img a.img {
-				background: url(../images/standard-img.png) no-repeat;
+				background: url(../img/standard-img.png) no-repeat;
 				display: inline-block;
 				width: 100px;
 				height: 75px;
@@ -436,7 +436,7 @@
 
 							body#normal h4 {
 								color: #fff;
-								background: rgb(154,159,170) url(../images/bglight.png) top left repeat-x;
+								background: rgb(154,159,170) url(../img/bglight.png) top left repeat-x;
 								border-top: 1px solid rgb(165,177,186);
 								text-shadow: #666 0 1px 0;
 								margin: 0;
@@ -494,7 +494,7 @@
 								body#metal ul li {
 									border-top: 1px solid rgb(238,238,238);
 									border-bottom: 1px solid rgb(156,158,165);
-									background: url(../images/bgMetal.png) top left repeat-x;
+									background: url(../img/bgMetal.png) top left repeat-x;
 									font-size: 26px;
 									text-shadow: #fff 0 1px 0;
 									}
@@ -538,8 +538,8 @@
 										
 										
 										body#metal ul li.arrow {
-											background: url(../images/bgMetal.png) top left repeat-x,
-											url(../images/chevron_dg.png) right center no-repeat;
+											background: url(../img/bgMetal.png) top left repeat-x,
+											url(../img/chevron_dg.png) right center no-repeat;
 										}
 										
 										
@@ -547,7 +547,7 @@
 										/* option panel */
 
 											div#optionpanel {
-												background: url(../images/blackbg.png) top left repeat-x;
+												background: url(../img/blackbg.png) top left repeat-x;
 												text-align: center;
 												padding: 20px 10px 15px 10px;
 												position: absolute;
@@ -579,16 +579,16 @@
 											margin: 3px 0;
 											}
 
-											.green { -webkit-border-image: url(../images/greenButton.png) 0 14 0 14; }
-											.red { -webkit-border-image: url(../images/redButton.png) 0 14 0 14; }
+											.green { -webkit-border-image: url(../img/greenButton.png) 0 14 0 14; }
+											.red { -webkit-border-image: url(../img/redButton.png) 0 14 0 14; }
 
 											.white {
 												color: #000;
 												text-shadow: #fff 0px 1px 0;
-												-webkit-border-image: url(../images/whiteButton.png) 0 14 0 14;
+												-webkit-border-image: url(../img/whiteButton.png) 0 14 0 14;
 												}
 
-											.black { -webkit-border-image: url(../images/grayButton.png) 0 14 0 14; }
+											.black { -webkit-border-image: url(../img/grayButton.png) 0 14 0 14; }
 											
 											
 /***** FORMS *****/
@@ -628,7 +628,7 @@
 				
 				ul li select {
 					text-indent: 0px;
-					background: transparent url(../images/chevron.png) no-repeat 103% 3px;
+					background: transparent url(../img/chevron.png) no-repeat 103% 3px;
 					-webkit-appearance: textfield;
 					margin-left: -6px;
 					width: 104%;
@@ -745,7 +745,7 @@
 							}
 							
 							ul.profile li {
-								background: #fff url(../images/profile-user.png) no-repeat;
+								background: #fff url(../img/profile-user.png) no-repeat;
 								border: 1px solid #B4B4B4;
 								width: 62px;
 								height: 62px;
@@ -950,35 +950,35 @@
 			/* lefties */
 			
 			body#chat div.left p.lime {
-				-webkit-border-image: url(../images/chat_bubbles_lime_l.png) 10 10 13 19;
+				-webkit-border-image: url(../img/chat_bubbles_lime_l.png) 10 10 13 19;
 				}
 				
 			body#chat div.left p.lemon {
-				-webkit-border-image: url(../images/chat_bubbles_lemon_l.png) 10 10 13 19;
+				-webkit-border-image: url(../img/chat_bubbles_lemon_l.png) 10 10 13 19;
 				}
 				
 			body#chat div.left p.orange {
-				-webkit-border-image: url(../images/chat_bubbles_orange_l.png) 10 10 13 19;
+				-webkit-border-image: url(../img/chat_bubbles_orange_l.png) 10 10 13 19;
 				}
 				
 			body#chat div.left p.aqua {
-				-webkit-border-image: url(../images/chat_bubbles_aqua_l.png) 10 10 13 19;
+				-webkit-border-image: url(../img/chat_bubbles_aqua_l.png) 10 10 13 19;
 				}
 				
 			body#chat div.left p.purple {
-				-webkit-border-image: url(../images/chat_bubbles_purple_l.png) 10 10 13 19;
+				-webkit-border-image: url(../img/chat_bubbles_purple_l.png) 10 10 13 19;
 				}
 				
 			body#chat div.left p.pink {
-				-webkit-border-image: url(../images/chat_bubbles_pink_l.png) 10 10 13 19;
+				-webkit-border-image: url(../img/chat_bubbles_pink_l.png) 10 10 13 19;
 				}
 				
 			body#chat div.left p.graphite {
-				-webkit-border-image: url(../images/chat_bubbles_graphite_l.png) 10 10 13 19;
+				-webkit-border-image: url(../img/chat_bubbles_graphite_l.png) 10 10 13 19;
 				}
 				
 			body#chat div.left p.clear {
-				-webkit-border-image: url(../images/chat_bubbles_clear_l.png) 10 10 13 19;
+				-webkit-border-image: url(../img/chat_bubbles_clear_l.png) 10 10 13 19;
 				}
 				
 				
@@ -987,31 +987,31 @@
 			/*rights*/	
 			
 			body#chat div.right p.aqua {
-				-webkit-border-image: url(../images/chat_bubbles_aqua_r.png) 10 19 13 10;
+				-webkit-border-image: url(../img/chat_bubbles_aqua_r.png) 10 19 13 10;
 				}
 				
 			body#chat div.right p.lemon {
-				-webkit-border-image: url(../images/chat_bubbles_lemon_r.png) 10 19 13 10;
+				-webkit-border-image: url(../img/chat_bubbles_lemon_r.png) 10 19 13 10;
 				}
 				
 			body#chat div.right p.lime {
-				-webkit-border-image: url(../images/chat_bubbles_lime_r.png) 10 19 13 10;
+				-webkit-border-image: url(../img/chat_bubbles_lime_r.png) 10 19 13 10;
 				}
 				
 			body#chat div.right p.purple {
-				-webkit-border-image: url(../images/chat_bubbles_purple_r.png) 10 19 13 10;
+				-webkit-border-image: url(../img/chat_bubbles_purple_r.png) 10 19 13 10;
 				}
 				
 			body#chat div.right p.pink {
-				-webkit-border-image: url(../images/chat_bubbles_pink_r.png) 10 19 13 10;
+				-webkit-border-image: url(../img/chat_bubbles_pink_r.png) 10 19 13 10;
 				}
 				
 			body#chat div.right p.graphite {
-				-webkit-border-image: url(../images/chat_bubbles_graphite_r.png) 10 19 13 10;
+				-webkit-border-image: url(../img/chat_bubbles_graphite_r.png) 10 19 13 10;
 				}
 				
 			body#chat div.right p.clear {
-				-webkit-border-image: url(../images/chat_bubbles_clear_r.png) 10 19 13 10;
+				-webkit-border-image: url(../img/chat_bubbles_clear_r.png) 10 19 13 10;
 				}
 				
 				
@@ -1062,7 +1062,7 @@
 					height: 73px;
 					float: left;
 					margin: 0 0 4px 4px;
-					background: #F4FBFE url(../images/image-loading.gif) no-repeat center center;
+					background: #F4FBFE url(../img/image-loading.gif) no-repeat center center;
 					padding: 0;
 					}
 					

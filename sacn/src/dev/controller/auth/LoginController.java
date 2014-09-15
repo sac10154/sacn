@@ -19,14 +19,12 @@ public class LoginController extends Controller {
     @Override
     public Navigation run() throws Exception {
         String continuePage = createServerStringBuffer(request.getScheme(),
-            request.getServerName(),request.getServerPort()).append("/index").toString();
+            request.getServerName(),request.getServerPort()).append("/auth/index").toString();
         request.setAttribute("google", createOpenIdUrl(continuePage, GOOGLE_URL));
         request.setAttribute("yahoo", createOpenIdUrl(continuePage, YAHOO_URL));
         request.setAttribute("mixi", createOpenIdUrl(continuePage, MIXI_URL));
         
-//        RequestDispatcher rd = getServletContext().getRequestDispatcher("/WEB-INF/login.jsp");
         return forward("login.jsp");
-//        return redirect("login.jsp");
     }
 
     private StringBuffer createServerStringBuffer(String scheme, String server, int port){
@@ -39,7 +37,7 @@ public class LoginController extends Controller {
         url.append(server);
         if((scheme.equals("http") && (port != 80))
                 || (scheme.equals("https") && (port != 443))){
-            url.append(";");
+            url.append(":");
             url.append(port);
         }
         return url;
@@ -47,7 +45,7 @@ public class LoginController extends Controller {
 
     private String createOpenIdUrl(String continuePage, String openIdentifier)
             throws UnsupportedEncodingException{
-        return "loginhandler?continue="
+        return "LoginHandler?continue="
                 + URLEncoder.encode(continuePage, "UTF-8")
                 + "&openid_identifier="
                 + URLEncoder.encode(openIdentifier, "UTF-8");

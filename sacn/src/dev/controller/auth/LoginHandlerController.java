@@ -13,8 +13,8 @@ public class LoginHandlerController extends Controller {
 
     @Override
     public Navigation run() throws Exception {
-        String continuePage = request.getParameter("continuePage");
-        String openidIdentifier = request.getParameter("openidIdentifier");
+        String continuePage = request.getParameter("continue");
+        String openidIdentifier = request.getParameter("openid_identifier");
 
         String authDomain = continuePage.substring(0, continuePage.lastIndexOf("/"));
         Set<String> attributesRequest = new HashSet<String>();
@@ -24,6 +24,5 @@ public class LoginHandlerController extends Controller {
             openidIdentifier, attributesRequest);
         
         return redirect(createdUrl);
-//        return null;
     }
 }
